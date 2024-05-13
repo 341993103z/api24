@@ -1,0 +1,484 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:((814, 'f7b2307f-4937-407a-8dfa-cb68bea4249b', 'peter', 'atIcOMpdQi8vXx9Yr4UelXHqrl7Nwgo9qp7mNgTDU4wVdyw2gzSGzqxMlBvkSJh1mx75x539T5rw5QiJf70eL+gizadptgYhFz7I4fiJcC9/ltnpJhPUw5eoTN2iJ+rq/dpAl68SxT/ArTPhfUaKmFEdzauFDrmZWr9j3EN+6Wg=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 9, 22), None, datetime.datetime(2024, 5, 11, 16, 9, 22), b'\x00', None),)
+DEBUG:root:delete from t_user where user_name='peter'
+INFO:root:===========开始测试============
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:((815, '233b6ffc-1921-4f84-8074-bb8edf6d5237', 'peter', 'SweUnklv0vk6dYAbCs6u+nZzz4QRTpGN9y21oP+DYVMFPqWymcGE/bhw4gcME4K9RUZglTi+k3K35JQnvvh3XPq0TL9SEG68fcLacEdyhzDGGTtwEgYD4TJBXy2PM6GfNCBfpZtJ8/Jfn/Lj5HPRLwYZ/tFh0LuVo25MnyIsawo=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 9, 22), None, datetime.datetime(2024, 5, 11, 16, 9, 22), b'\x00', None),)
+DEBUG:root:delete from t_user where user_name='peter'
+DEBUG:root:select * from t_user where user_name = 'lucy'
+DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+DEBUG:root:select * from t_user where user_name = 'lucy'
+DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name='peter'
+DEBUG:root:select * from t_user where user_name = 'student'
+DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:((817, 'b4613c67-9c20-4850-9114-02fa4826ee5c', 'peter', 'DjTv+ZBaMePewY5Nq2io04sEKO+Pih5coKIs8/nwaUDZs1/jxE693YmiY1JAu3XdTpk9Tq967RRpQBb2UdlJK205OQ0p5YjIuJDCxmI8kHxbNibrK/QVFUFDFpyhFyGQJx2bxB2f0N2cniQGoZTrpGJ7c/AmXdFnfO3/AbSMBjM=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 9, 22), None, datetime.datetime(2024, 5, 11, 16, 9, 22), b'\x00', None),)
+DEBUG:root:delete from t_user where user_name='peter'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+INFO:root:===========测试结束============
+DEBUG:root:邮件发送成功
+INFO:root:*****************发送邮件***************
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from t_user where user_name = 'peter'
+DEBUG:root:((818, 'c78f0136-c19f-44e7-88fe-b3f8e53ad683', 'peter', 'SPQCW0VfSh5MiYR4tHj9iyNp5hN3WyTQyaSKZQTzDLJ4agEMIiwmfe7mUohIeo5cd6D4W8rAHtv53T77nXQR+46v9rLr1oycCFGFZ64zaKngoFVajf3hMzVoDamPqLkZTgg7Hlmg9Y2x8QjWy8Ep9vdTCfdF0QqyBPcUScBR69U=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 19, 20), None, datetime.datetime(2024, 5, 11, 16, 19, 20), b'\x00', None),)
+DEBUG:root:delete from t_user where user_name='peter'
+INFO:root:===========开始测试============
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+INFO:root:===========测试结束============
+DEBUG:root:邮件发送成功
+INFO:root:*****************发送邮件***************
+2024-05-11 16:26:37:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:26:37:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:27:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:27:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:29:59:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:29:59:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:29:59:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:29:59:DEBUG:root:()
+2024-05-11 16:29:59:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:29:59:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:29:59:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:29:59:DEBUG:root:((819, '7d12702e-5adf-4f2d-9d6a-6747da5ab517', 'peter', 'dkEJSAap/HBzvr0Fm9e97Kvu/F6glHb7P5xPnIIUSwd5u/OTeOxeyZXkr1N2q65eNaZ+BG9Ua8J0/6jSkiP7Z05hvHj1ju3pTmC2TyoTb6l9Gkf3rHUnrqd7laxNlu4L+xs49uztoqz0/2SWjLgNZzrNpKmh0+iYQ1ADoQn5DCY=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 29, 59), None, datetime.datetime(2024, 5, 11, 16, 29, 59), b'\x00', None),)
+2024-05-11 16:29:59:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:34:09:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:34:09:DEBUG:root:()
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:34:09:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:34:09:DEBUG:root:((820, '43452522-ca74-42fe-af34-523daa6317c3', 'peter', 'QWHemjzlS6FkFucl8N/eFLtJvEtHUTmWJRdgQ+5CGxHLu1e+5xhGe5OunZIoJ8CdXGVxGscpG5T3mFzN0WT+92paAtfJ7pObgOpSDNc0tAvIo7JfQqdrwYdvR7lQdCacfZTXFYZSxbuAdYQRWvXgMiTNCZVuD2GKNP/RThP2+N4=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 34, 9), None, datetime.datetime(2024, 5, 11, 16, 34, 9), b'\x00', None),)
+2024-05-11 16:34:09:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:34:09:INFO:root:===========开始测试============
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:34:09:INFO:root:===========测试结束============
+2024-05-11 16:34:09:INFO:root:===========开始测试============
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:09:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:34:09:INFO:root:===========测试结束============
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:34:39:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:34:39:DEBUG:root:()
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:34:39:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:34:39:DEBUG:root:((821, '554be9e8-e807-4403-bf89-b9a735e8ada4', 'peter', 'ZQ0RnIg79hb0ajFmHIAm+j4lNoUQFteSVCz6QApYkZsd64Jwke+Ean1xSK3jLauddN8rQ6xZ78KyK7R8XSefFrsiXePLwKes/7SgLc+ujIPNSfqtxoeltnCi/200UFvEe0VysmM7dDNu09rodtCUgKY/FqyHnmYuFO/PCcGhPKw=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 34, 39), None, datetime.datetime(2024, 5, 11, 16, 34, 39), b'\x00', None),)
+2024-05-11 16:34:39:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:34:39:INFO:root:===========开始测试============
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:34:39:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:34:39:INFO:root:===========测试结束============
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:37:02:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:02:DEBUG:root:()
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:37:02:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:02:DEBUG:root:((822, '2efc01fe-48f3-47d2-abd2-8568f77edc37', 'peter', 'aC1XPqS3ssUftftGMlhJPKWeCk42EWdeV8AiuBOSvH4+5DZKFW1j/KbTCV/k0oo/w79oJlQ0TGRduuOoDU6nv9IAMHHFqfEHYcYaP8OKWivKni+H4nSsMVTOadab1eWto82+bNVLSaMits/1dAAxVHlt6X7oo2RyAzL6YP8iPMQ=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 37, 2), None, datetime.datetime(2024, 5, 11, 16, 37, 2), b'\x00', None),)
+2024-05-11 16:37:02:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:37:02:INFO:root:===========开始测试============
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:02:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:02:INFO:root:===========测试结束============
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:37:14:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:14:DEBUG:root:()
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:37:14:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:14:DEBUG:root:((823, '7d7b5233-089c-4aa2-95bf-a9613d531186', 'peter', 'kWCzRIaVnQafVhmpd9kSXN5cTaIdJrjk5+gnML//vSW/inqXtNGmQ4sHM137mfEt1LozuxlOfr/vQEeaWpwtMblGfdoEUxLiFMdSoeimTLXuUA4hxFwQfoiH0jjdH1JwEatfIDir0oRu1K/gG6eCXSWRLh/Mhnu09QieJ8/7E2U=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 37, 15), None, datetime.datetime(2024, 5, 11, 16, 37, 15), b'\x00', None),)
+2024-05-11 16:37:14:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:37:14:INFO:root:===========开始测试============
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:14:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:15:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:15:INFO:root:===========测试结束============
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:37:49:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:49:DEBUG:root:()
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:37:49:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:37:49:DEBUG:root:((824, '24d66437-c808-4295-bb11-f7a3f4a2a10c', 'peter', 'XDivF6Z1ukjYL6gTpoW6NqF2D09uTg5KKT60mTFaBTBullTnbAT50S3MbRtEynIb0AZjfM3Rj1DPTp2qMgOQdYGrCrlhHNBDMC/LgSYpAUwv3mE2ZfXQPuKu20o5LDTnbLc2Pviz4s6E4ESqESF7MuCcbyyJinhXH/mwD7YNDic=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 37, 50), None, datetime.datetime(2024, 5, 11, 16, 37, 50), b'\x00', None),)
+2024-05-11 16:37:49:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:37:49:INFO:root:===========开始测试============
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:37:49:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:37:49:INFO:root:===========测试结束============
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:38:18:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:18:DEBUG:root:()
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:18:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:18:DEBUG:root:((825, 'c3fab665-7657-440d-b489-677224abb365', 'peter', 'aCcgYU9LyVd+7KmJEK00Pg+RmRpWdPeuO5LFM1kaZqqn1bHf2+y89e0/+79jiiY9/cJuXY/UWVR6CSTQ4eglBEJJVtIf0QPbfhrpLw0cMju4rXjjsxjCtTV4udgZQ1fl0RwTBsAefVWa5twoKZbSBFhwwohW9PbUnZnltuEKDjg=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 38, 19), None, datetime.datetime(2024, 5, 11, 16, 38, 19), b'\x00', None),)
+2024-05-11 16:38:18:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:38:18:INFO:root:===========开始测试============
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:18:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:18:INFO:root:===========测试结束============
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:()
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:((826, '8e9a176b-2699-411b-923b-767396f214e7', 'peter', 'kTkTO9JH6WGNG2KuY4sYFkokdKRu/8dVivTF2MaEqLE+CkBgOuiuICBKDPhDbC55Nal62mvH9s/g+nuqEk1WAdLvoGTU04YV+UbT3Bv2nZn50tYKa7brGwYKHc25nd4JnBMkLHFs++rD+APzX6+mHhAtzR8m8tzjzaFsIvS+P3M=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 38, 51), None, datetime.datetime(2024, 5, 11, 16, 38, 51), b'\x00', None),)
+2024-05-11 16:38:51:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:38:51:INFO:root:===========开始测试============
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:()
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:((827, 'a1516ab6-816f-4fe1-99b2-9cd5933e4932', 'peter', 'lbZNkad1W0MKEwhekH/OvzMybgbYzmzCd6RpMqSdRDizkFes2SNuW2YA5UURGyHySh1TmMAsy8SA9dEzpUBnB8mCaRzzyVHm12X+/hyzhz2Tng3kvr8wwlFOjTNf3+C8lrvomDtcPIo8R9LWUEzua9Vg3sPoIfKmuuvAwvcRjPc=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 38, 51), None, datetime.datetime(2024, 5, 11, 16, 38, 51), b'\x00', None),)
+2024-05-11 16:38:51:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:38:51:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:38:51:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:()
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'student'
+2024-05-11 16:38:51:DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:()
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:38:51:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:38:51:DEBUG:root:((829, '5f5fa65a-7ec5-499d-9025-d0233c8c1802', 'peter', 'IA6WTX3TRXLDcFyxhoYpbILIiFu2Nzh1/t4K0D0NEB1KpacR29oCs68S9YDJwj/Qp7F1AlAW6QH8GOeR6KVAC4IfJn8tlyrc9YxfmikWPdjKJXJ43tywbj5PF8RPJ4EPCJQk1sZCRvn4HkGhOgSR0e/72CyBczEFMejKNMEBoC8=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 38, 51), None, datetime.datetime(2024, 5, 11, 16, 38, 51), b'\x00', None),)
+2024-05-11 16:38:51:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:38:51:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:38:51:INFO:root:===========测试结束============
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:39:05:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:05:DEBUG:root:()
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:05:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:05:DEBUG:root:((830, '752429c5-d640-4991-ab77-958dae137be0', 'peter', 'K4PWPN5jZAfEnEEXvyckyj4no0YXZaI4Kn42Sqve44L4H1qJzSAY3k+Dh+Pirxq8CcO9+Sq7sWddDfIl3EMi9oHJI+2CDsAKmIigpwG3HRQ5qhPIdXMhmadnWJGU4RKDiJ8NPHXAhmHvIycg+tFC75Fr15n66oH7Aj2bIrPOlfc=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 39, 6), None, datetime.datetime(2024, 5, 11, 16, 39, 6), b'\x00', None),)
+2024-05-11 16:39:05:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:39:05:INFO:root:===========开始测试============
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:39:05:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:05:DEBUG:root:()
+2024-05-11 16:39:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:06:DEBUG:root:((831, '01574bb9-3f3e-4468-8536-8758c71127d2', 'peter', 'Iy9y8fS0q+VHbtuBJJwoyalHJ5lPdIEWBrWmswLtv3zJU1IMHyNGJ4oTLEW3ny9+NofDW6Wss+ogVg0veEOaSpF3EqMDrw4j26WkB0DCQF6zatg9rf0/b55Hh0T9F+GUSfCXEabalWk0PLcTSTLsdvrBlh91US8AvFVJbDZLsYI=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 39, 6), None, datetime.datetime(2024, 5, 11, 16, 39, 6), b'\x00', None),)
+2024-05-11 16:39:06:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:39:06:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:39:06:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:06:DEBUG:root:()
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'student'
+2024-05-11 16:39:06:DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:06:DEBUG:root:()
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:39:06:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:39:06:DEBUG:root:((833, '24ab701c-7772-4d7f-ac96-427cb7f9b25a', 'peter', 'YF8sY2HYpfCb+pNqAAUWNmK9+5O3mUuMctXh5jTNBH0Mdz6ncV5BnjwLjAp6Zch/t2Xx6kl/uj2mtAFrLZJ369bWSbYLU0YwcUIdB6OW2o+yqRIz3TiDT+xNEiFpt/GHFt8Vf3oXyr6VXWG0dHDbEQ6zKX7mxm71dx6rzqp4gg4=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 39, 6), None, datetime.datetime(2024, 5, 11, 16, 39, 6), b'\x00', None),)
+2024-05-11 16:39:06:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:39:06:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:39:06:INFO:root:===========测试结束============
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:()
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:((834, '200c20b3-177e-40ee-be14-f5d630865a3a', 'peter', 'hQv7iuojiIconxwuIhhGmNdHB2wKzDJpduD6FA1iY4YTIjucAy8uIedHCy/+X0Q9Ji01jPi4t/p7T5BzNO/bCjk59QSLo0rVou1S9qI1J3yOYzelLUMeV+wAySM1Q1hQ/Wsn24v6M3ciB+UtFI7YH9NZifmNLMLSIQlO4Jbd+b4=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 41, 17), None, datetime.datetime(2024, 5, 11, 16, 41, 17), b'\x00', None),)
+2024-05-11 16:41:16:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:41:16:INFO:root:===========开始测试============
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:()
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:((835, '9268f6fc-347e-4485-ae34-d1d740e5345b', 'peter', 'AqmnjYnU+Lpp2lxr38BFf4JpsmTiDxE60WP7PCECf8fXbhB1JAUm93D2BBbhgu4XG6ys589XaY2TrPyx6tmxm57H4KRJ6BiIEVvKY1u9M/EnNH2oUXlJ6HN6Ys7lqPXEzTlt/l86MfWMf+jU2JkQhAMztUicjgiS7csakPPFOcM=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 41, 17), None, datetime.datetime(2024, 5, 11, 16, 41, 17), b'\x00', None),)
+2024-05-11 16:41:16:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:41:16:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:41:16:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:()
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'student'
+2024-05-11 16:41:16:DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:()
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:41:16:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:41:16:DEBUG:root:((837, '92556f10-e150-49b8-80f3-acaa7d114eb3', 'peter', 'mI1CzegOVVtow9Sx3n/6PQqNCVg7Df8v4Pfpx8jHiTU4124P3ixq2sy+dSsMsKm+BQ9lVFNutIfFQKigH7KjU6ErODbc5pzlCPg96bPJJ2kguXvgGlDIXS5d67UQHb0lmnqVtarGiWJcez5p9nDjVfU+OvoT1w91xcfk1g5iV0g=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 41, 17), None, datetime.datetime(2024, 5, 11, 16, 41, 17), b'\x00', None),)
+2024-05-11 16:41:16:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:41:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:17:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:41:17:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:41:17:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:41:17:INFO:root:===========测试结束============
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:()
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:((838, '3d552e9f-b773-4686-aba2-4731105b07ec', 'peter', 'JuEctHugOkVZjjCCbRqmYPhsz8iLVKbmhW0Zh1yY8vkWaeoHJuo4v1F+COn5sLX0RsiYn+WYSGvqZU85M4WkZqsGi73MT0NpJtijbQIYPQJpIM2CrUMBwHmzyjcqp9F5QPEGWC1xkiP8rn6uS9VkwKtWVH/MCJvseqzVUOAtd9k=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 42, 47), None, datetime.datetime(2024, 5, 11, 16, 42, 47), b'\x00', None),)
+2024-05-11 16:42:47:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:42:47:INFO:root:===========开始测试============
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:()
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:((839, '953b57c2-3fd2-45d4-a7a0-42bda6ce9998', 'peter', 'BV+Tos9WFkkPQhnKJ3rfILzOg8mkXvoO5uexpPPwU/0k6XTVhVXn1RPEu8SYVdxW1/XC0fRs+J1rCZtquJ1ZbuDdNfmGrIUQmAUyhfk8jTzPbYDskspCaHvha6ARGxR5ME0jfCLJyxG9+ZVazC75vUhLE4ljE3i2x68fxy4KWAE=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 42, 47), None, datetime.datetime(2024, 5, 11, 16, 42, 47), b'\x00', None),)
+2024-05-11 16:42:47:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:42:47:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:42:47:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:()
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'student'
+2024-05-11 16:42:47:DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:()
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:42:47:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:42:47:DEBUG:root:((841, 'd16fd3bb-1903-4660-95f1-0856fdfa9714', 'peter', 'o/w9dWkOERHc2O1YBirK4jNbrdq5h+kvECrmPBY1OMxSXdHlFBDvyn4mCRmqsdFWWJzxr87nmqNyVnd2zisdu/6SaJF2fUPqvVLMJ89apEGbj6FubIFg4b2GSvF+uWTXrT7rfOpZG8g3bI8K9jXnAhdw0juhJeg+GXhAG5+Lzqo=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 42, 48), None, datetime.datetime(2024, 5, 11, 16, 42, 48), b'\x00', None),)
+2024-05-11 16:42:47:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:42:47:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:42:47:INFO:root:===========测试结束============
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:()
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:((842, '1977cc61-d7c8-4390-8199-ebd181d30a0c', 'peter', 'iqrySCMKt2N65d0C8Vst+KE23kzGMdO6R1LFWCsGmOAkgTPwkROrRqHd6goWATl7wg8zDFuacWFPYzLTE+Zk3x5hwM8URDvLCLnKHFBi9ER3J/4jeamxsY+hfhLj3Yk66qVk5p/3D5PKKQ/AyFlkuvQ+tDNRZ58W6124AxcJfZU=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 54, 29), None, datetime.datetime(2024, 5, 11, 16, 54, 29), b'\x00', None),)
+2024-05-11 16:54:28:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:54:28:INFO:root:===========开始测试============
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:()
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:((843, '49cf8160-9379-48ae-8def-bb83fd153bfa', 'peter', 'NEgpgHExuQDSdtyRfRHTTTRMpDfYQ121ame5NKvZdqQQB5aTBUAff7VjZfp7/jksIlXbMJN8tF6grO6ua0zZlHH5SAqlMpKxnGBKZguaXUKl6JOHVbh9V1SqklLYtk+RnCIIGj0kZfPJMR+SlMKundfxELAS27aSLjCeISF6zIw=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 54, 29), None, datetime.datetime(2024, 5, 11, 16, 54, 29), b'\x00', None),)
+2024-05-11 16:54:28:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:54:28:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'lucy'
+2024-05-11 16:54:28:DEBUG:root:((63, '7a068409-c0bb-4c6e-a41a-b8d127d00dc9', 'lucy', 'JOVDpi8WdYfguQHvJCxC2zFFQA2vce8rP33FKN1/D6UDcEydd3yn1HjSefofdy1RAgWklp00udPM7GhVIfe05vZodo7AGFpx0wRPplVHgQR2ci96VPerdpnA16oEFreUXb9w2aGfIrtYjB4CWlN2lltjT2QJelBOtOGYWUJb2tI=', None, None, None, None, 2, None, 1, 1, None, datetime.datetime(2024, 4, 28, 9, 42, 18), None, datetime.datetime(2024, 4, 28, 9, 42, 18), b'\x00', None),)
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:()
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'student'
+2024-05-11 16:54:28:DEBUG:root:((1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None), (4, '297902d4-8fee-4e2f-80a5-700f7ee75fb2', 'student', 'J/7QaKl3Mw6dYyfzdqyYJ5aHwTrbDz4auhrxNxfhcOZUSKEJ6j8baCaefaUAn1W+vtHf/YmOCitMQs2KoB7VExVX3ASyt+xTbF/m1L3ZMbnRWBjYYmMcmDJUXRsHU0MNLDFU704cwzziKjLkqDLZGqpWslBkUTDOxJE/YWyYj3c=', '一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 9, 21, 52), datetime.datetime(2023, 5, 12, 9, 28, 21), datetime.datetime(2023, 5, 12, 9, 21, 52), b'\x01', None), (12, '56cf4b6b-5977-4a6f-869c-7492226195ad', 'student', 'OLjZ2zugXhwqB7gtjrNBgGYHzO09kHlIWs+i8WIuGQ0WzbeyRjmtrZ5yO2sDN7XzXP96+d2OvP/iGGr09r7uh+exzwNYqnKxSLqael2r5zjpFvj/Ar0SgwsnFCuyKnMWs6DQNoq8QFlZKPSxuBpFqt0fx//Pj5VDs8HZ26KAc9E=', 'student', None, None, None, 1, None, 1, 1, None, datetime.datetime(2023, 5, 12, 17, 1, 13), datetime.datetime(2023, 5, 12, 17, 1, 24), datetime.datetime(2023, 5, 12, 17, 1, 13), b'\x00', None))
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:()
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+2024-05-11 16:54:28:DEBUG:root:select * from t_user where user_name = 'peter'
+2024-05-11 16:54:28:DEBUG:root:((845, '2356b9a6-0401-421e-ac14-a29ad3270db2', 'peter', 'nTk+QrqavIIV6f5Xm1PGrPOJfDQYkgKpTUWfZap9/smq6rZIRBnlGE9jdDYcMl5qxtuPJUWHyZBouJfSWIttQovT0mNU91Gl4zcCOvtETfaUlOgabfpZwKXgCn/a8JVSE3/Ttzy1xs7hYYBbKcCk5hxSGmdo19IFsroffY7bDm4=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 11, 16, 54, 29), None, datetime.datetime(2024, 5, 11, 16, 54, 29), b'\x00', None),)
+2024-05-11 16:54:28:DEBUG:root:delete from t_user where user_name='peter'
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 274
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.22:8000
+2024-05-11 16:54:28:DEBUG:urllib3.connectionpool:http://192.168.55.22:8000 "POST /api/user/login HTTP/1.1" 200 85
+2024-05-11 16:54:28:INFO:root:===========测试结束============
